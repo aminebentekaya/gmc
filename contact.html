@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <title>Contact</title>
-    </header>
+    <head>
+    
+        <title> Contact </title>
+        <link rel="stylesheet" href="css/Style.css">
+
+    </head>
 
     <body>
-
-        <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Courses.html">Courses</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <h3>Contact</h3>
+        <div id="navbar">
+                <div id="logo">
+                        <img src="https://gomycode.tn/images/section2GMCLogo.png">
+                    </div> 
+        <ul style="list-style-type:none;">
+            <li><a href="Home.html" class="menuItem"> 
+                <h3>
+                    Home
+                </h3>
+            </a></li>
+            <li><a href="Courses.html" class="menuItem">
+                    <h3>
+                            Courses
+                    </h3>
+                </a></li>
+            <li><a href="contact.html" class="menuItem">
+                    <h3>
+                            Contact
+                    </h3>
+             </a></li>
+          </ul>
+          </div>
+          <div class="imaget">
+                <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png" alt="courses" height="450"
+                    width="100">
+                <div class="centered"><h1 class="heading">Contact</h1></div>
+            </div>
+    <div align="center">
+        <h2 style="color: white;">Contact</h2>
+    </div>
+        <div align="center">
         <form>
-            <label>name</label>
+            <label class= "label">Name</label>
             <br>
             <input type="text" placeholder="your name">
             <br>
-            <label>track</label>
+            <label class= "label">Track</label>
             <br>
         <select>
             <option>web</option>
@@ -25,16 +52,16 @@
             <option>Game</option>
         </select>
             <br>
-            <label>email adress</label>
+            <label class= "label">Email adress</label>
             <br>
             <input type="text" placeholder="name@example.com">
             <br>
-            <label>phone number</label>
+            <label class= "label">Phone number</label>
             <br>
             <input type="text" placeholder="your number">
             <br>
             <input type="submit" value="Submit">
         </form>
-
+    </div>
     </body>
 </html>
